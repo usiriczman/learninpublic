@@ -1,0 +1,25 @@
+
+body {
+  background-color: #212121;
+}
+
+nav { 
+  background: #333; 
+  border-bottom: 1px solid #444;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.twitter-hashtag-button {
+   text-align: right;
+
+}
+
+.maintimeline {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
